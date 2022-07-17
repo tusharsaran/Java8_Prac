@@ -13,21 +13,20 @@ Streams dont change the original data structure
 
 Methods
 - parallelStream
-- foreach **
-- filter
+- foreach  - consumer **
+- filter  - predicate**
 - sorted **
 - skip **
-- peek
-- reduce
-- min
-- max
-- count
-- map
-- flatmap
-- collect
+- peek - consumer **
+- reduce - identity, BinaryOperator<T> accumulator **
+- min  - comparator**
+- max  - comparator**
+- count **
+- map - Function **
+- flatmap - Function  **
+- collect ***
 - findAny
 - findFirst
-- default
 - limit
  */
 public class StreamDemo {

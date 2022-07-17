@@ -5,13 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/*
-Returns a stream consisting of the elements of this stream, additionally performing the provided action on each element as elements are consumed from the resulting stream.
-can be used for debugging purpose
- */
-public class StreamPeek {
-
-
+public class StreamFilter {
 
     public static void main(String args[]) {
 
@@ -39,5 +33,4 @@ public class StreamPeek {
 
 
     }
-
 }
